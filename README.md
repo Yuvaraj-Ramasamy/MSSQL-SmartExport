@@ -1,11 +1,11 @@
 <p align="center">
-  <h1><strong>“Automation is not about replacing people — it’s about empowering them to do more meaningful work.”</strong></h1>h1
+  <h1><strong>Automation is not about replacing people - it’s about empowering them to do more meaningful work.</strong></h1>
 </p>
 
 # MSSQL-SmartExport
 Python script to query MSSQL server principals and export results to Excel.
 
-A lightweight Python utility to query SQL Server principals from sys.server_principals and export the results into a clean, formatted Excel report.
+A lightweight Python utility to query SQL Server principals from ``sys.server_principals`` and export the results into a clean, formatted Excel report.
 Designed for DBAs, developers, and auditors who need a quick way to extract login/user metadata directly from MSSQL.
 
 
@@ -52,7 +52,7 @@ Also ensure you have an appropriate ODBC Driver installed (such as ODBC Driver 1
 
 Inside main.py, update the connection string:
 ```
-Pythonconn_str = (    'mssql+pyodbc://@SERVER,PORT/DATABASE?driver=DRIVER_NAME&trusted_connection=yes')
+Pythonconn_str = ('mssql+pyodbc://@SERVER,PORT/DATABASE?driver=DRIVER_NAME&trusted_connection=yes')
 ```
 
 **Replace:**
