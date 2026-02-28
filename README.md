@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>“Automation is not about replacing people — it’s about empowering them to do more meaningful work.”</strong>
+  <h1><strong>“Automation is not about replacing people — it’s about empowering them to do more meaningful work.”</strong></h1>h1
 </p>
 
 # MSSQL-SmartExport
@@ -52,7 +52,7 @@ Also ensure you have an appropriate ODBC Driver installed (such as ODBC Driver 1
 
 Inside main.py, update the connection string:
 ```
-Pythonconn_str = (    'mssql+pyodbc://@SERVER,PORT/DATABASE?driver=DRIVER_NAME&trusted_connection=yes')Show more lines
+Pythonconn_str = (    'mssql+pyodbc://@SERVER,PORT/DATABASE?driver=DRIVER_NAME&trusted_connection=yes')
 ```
 
 **Replace:**
@@ -88,7 +88,7 @@ SQLSELECT
     is_disabled,
     default_database_name
 FROM sys.server_principals
-WHERE type IN ('S', 'U', 'G');Show more lines
+WHERE type IN ('S', 'U', 'G');
 ```
 
 **This captures:**
